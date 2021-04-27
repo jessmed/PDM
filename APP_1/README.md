@@ -1,4 +1,4 @@
-## DEVSOCKS: DISEÑA TUS CALCETINES
+## JOYSOCKS: DISEÑA TUS CALCETINES
 
 Una aplicación en Android para diseñar tus propios calcetines.  
 Últimamente está de moda los calcetines con estampados de diferentes cosas, frutas, animales, objetos etc.
