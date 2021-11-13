@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200">
+
+    <Button
+        android:id="@+id/close_btn"
+        android:layout_width="50dp"
+        android:layout_height="41dp"
+        android:text="X"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="344dp"
+        android:layout_height="657dp"
+        android:background="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="327dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="30dp"
+            android:text="Casa de sanchez"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="321dp"
+            android:layout_height="157dp"
+            android:layout_marginTop="11dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="291dp"
+                    android:background="#C7EBEF"
+                    android:text="ff"
+                    android:textColor="@color/design_default_color_on_secondary" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/author_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="#FF9800"
+            android:text="#Author"
+            android:textSize="14sp"
+            app:iconPadding="6dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+        <Button
+            android:id="@+id/theme_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:backgroundTint="#8BC34A"
+            android:text="#Cartoon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.07"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/author_btn" />
+
+        <Button
+            android:id="@+id/collection_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:backgroundTint="#FF3939"
+            android:text="#Cats"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.062"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/theme_btn" />
+
+        <Button
+            android:id="@+id/check_btn"
+            android:layout_width="242dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="CHECK"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/collection_btn" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="345dp"
+            android:layout_height="173dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dialog_title"
+            app:srcCompat="@mipmap/g1_1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

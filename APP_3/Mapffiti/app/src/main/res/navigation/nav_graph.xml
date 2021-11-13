@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mapsFragment">
+
+    <fragment
+        android:id="@+id/TrofiesFragment"
+        android:name="com.medyesus.mapffiti.TrofiesFragment"
+        android:label="@string/trofies_fragment_label"
+        tools:layout="@layout/fragment_trofies"/>
+
+    <fragment
+        android:id="@+id/ExploreFragment"
+        android:name="com.medyesus.mapffiti.ExploreFragment"
+        android:label="@string/explore_fragment_label"
+        tools:layout="@layout/fragment_explore"/>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.medyesus.mapffiti.SettingsFragment"
+        android:label="@string/settings_fragment_label" />
+
+
+    <action
+        android:id="@+id/action_global_TrofiesFragment"
+        app:destination="@id/TrofiesFragment"
+        app:launchSingleTop="false"
+        app:popUpTo="@id/TrofiesFragment"
+        app:popUpToInclusive="true" />
+    <action
+        android:id="@+id/action_global_ExploreFragment"
+        app:destination="@id/ExploreFragment"
+        app:popUpTo="@id/ExploreFragment"
+        app:popUpToInclusive="true" />
+    <action
+        android:id="@+id/action_global_settingsFragment"
+        app:destination="@id/settingsFragment"
+        app:popUpTo="@id/settingsFragment"
+        app:popUpToInclusive="true" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.medyesus.mapffiti.MapsFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_maps" />
+
+</navigation>

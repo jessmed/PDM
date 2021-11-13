@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <ListPreference
+            app:defaultValue="0"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_values"
+            app:key="language"
+            app:title="@string/reply_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="tema"
+            android:title="@string/theme_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/sync_header">
+
+        <SwitchPreferenceCompat
+
+            app:key="attachment"
+            app:summaryOff="@string/notification_summary1"
+            app:summaryOn="@string/notification_summary2"
+            app:title="@string/notification_title" />
+
+            <Preference
+                app:key="version"
+                app:title="@string/version_title"
+                app:summary="1.0"/>
+            <Preference
+                app:key="feedback"
+                app:title="@string/feedback_title"
+                app:summary="@string/feedback_summary"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

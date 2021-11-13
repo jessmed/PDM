@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.medyesus.mapffiti.MainActivity">
+    <item
+        android:id="@+id/logros"
+        android:title="logros"
+        android:icon="@drawable/ic_trofies"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/explore"
+        android:title="explore"
+        android:icon="@drawable/ic_explore"
+        app:showAsAction="always"/>/>
+    <item
+        android:id="@+id/settings"
+        android:title="ajustes"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="always"/>/>>
+</menu>

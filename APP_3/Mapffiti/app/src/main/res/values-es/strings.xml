@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Mapffiti</string>
+    <string name="app_name_CAP">MAPFFITI</string>
+    <string name="mensaje_permisos">Ve a ajustes y aceptra los permisos</string>
+    <string name="mensaje_permisos_2">Para activar la localización ve a ajustes y acepta los permisos</string>
+
+    <string-array name="opciones">
+        <item>Todos</item>
+        <item>Dibujo</item>
+        <item>Realista</item>
+        <item>Animales</item>
+        <item>Personas</item>
+        <item>Autor desconocido</item>
+        <item>Bansky</item>
+    </string-array>
+
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="trofies_fragment_label">Logros</string>
+    <string name="explore_fragment_label">Explora</string>
+    <string name="settings_fragment_label">Ajustes</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Apariencia</string>
+    <string name="sync_header">Aplicación</string>
+
+    <!-- Messages Preferences -->
+    <string name="reply_title">Idioma</string>
+    <string name="theme_title">Tema</string>
+    <string name="default_langu">Tema</string>
+    <string name="default_theme">Tema</string>
+    <string name="version_title">Versión</string>
+    <string name="notification_summary1">Sólo notificaciones de temas que sigues</string>
+    <string name="notification_summary2">Notificaciones de todos los temas</string>
+    <string name="notification_title">Notificaciones</string>
+    <string name="feedback_title">Contacta con nosotros</string>
+    <string name="feedback_summary">Infórmanos de algún error o sugerencias</string>
+
+    <string name="descripccion_1">-Trecking
+    \n\n-Hiking
+    \n\n-Renting bikes and routes
+    \n\n-Swimingpool
+    \n\n-Billiards
+    \n\n-Table tennis
+    \n\n-Padel
+    \n\n-Darts</string>
+    <string name="descripccion_2">Creado en el año 2002, el muro muestra una pequeña niña que pierde un balón en forma de corazón. Al lado de la ilustración de la niña, hecha en blanco y negro, en la que destaca el detalle del corazón en rojo, se encuentra una frase: “There is always hope” (siempre hay esperanza). Hecho con la técnica del esténcil, la obra Girl with Balloon (Chica con globo) ha sido replicada varias veces y constituye uno de los trabajos más reconocidos de Banksy.</string>
+    <string name="descripccion_3">\n\n-b
+    \n\n-b</string>
+
+    <string name="tag_animals">#Animales</string>
+    <string name="tag_people">#Personas</string>
+    <string name="tag_cartoon">#Dibujo</string>
+    <string name="tag_realistic">#Realismo</string>
+
+    <string name="trofie_1">Grafitis totales encontrados</string>
+    <string name="trofie_2">Graffities de animales</string>
+
+</resources>

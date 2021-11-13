@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Mapffiti</string>
+    <string name="app_name_CAP">MAPFFITI</string>
+    <string name="mensaje_permisos">Go settings and accept the permissions</string>
+    <string name="mensaje_permisos_2">In order to enable localization go settings and accept permissions</string>
+
+    <string-array name="opciones">
+        <item>All</item>
+        <item>Cartoon</item>
+        <item>Realistic</item>
+        <item>Animals</item>
+        <item>People</item>
+        <item>Unknown author</item>
+        <item>Bansky</item>
+    </string-array>
+
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="trofies_fragment_label">Trofies</string>
+    <string name="explore_fragment_label">Explore</string>
+    <string name="settings_fragment_label">Settings</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Appearance</string>
+    <string name="sync_header">Application</string>
+
+    <!-- Messages Preferences -->
+    <string name="reply_title">Language</string>
+    <string name="theme_title">Theme</string>
+    <string name="default_langu">Theme</string>
+    <string name="default_theme">Theme</string>
+    <string name="version_title">Version</string>
+    <string name="notification_summary1">Only notifications of topics you follow</string>
+    <string name="notification_summary2">Notifications of all topics</string>
+    <string name="notification_title">Notifications</string>
+    <string name="feedback_title">Send feedback</string>
+    <string name="feedback_summary">Report technical issues or suggest new features</string>
+
+
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>English</item>
+        <item>Español</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>English</item>
+        <item>Español</item>
+    </string-array>
+
+
+    <string name="descripccion_1">gfdg</string>
+    <string name="descripccion_2">
+        Created in 2002, the wall shows a little girl losing a heart-shaped ball. Next to the illustration of the girl, made black and white, in which the detail of the hearts in red stands out, there is a phrase: "There is always hope". Done with the stencil technique, the Girl with Balloon work has been replicated several times and is one of Banky\'s most recognized  works.</string>
+    <string name="descripccion_3">\n\n-b
+    \n\n-b</string>
+
+    <string name="tag_animals">#Animals</string>
+    <string name="tag_people">#People</string>
+    <string name="tag_cartoon">#Cartoon</string>
+    <string name="tag_realistic">#Realistic</string>
+
+    <string name="trofie_1">Total graffities checked</string>
+    <string name="trofie_2">Animals graffities</string>
+
+
+
+</resources>
