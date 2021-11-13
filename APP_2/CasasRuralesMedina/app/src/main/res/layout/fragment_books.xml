@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="309dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="36dp"
+            android:text="@string/yourbookstitle"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/book1"
+            android:layout_width="122dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/btnmyreserva"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/book2"
+            android:layout_width="122dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="30dp"
+            android:text="Button"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/book1"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/book3"
+            android:layout_width="122dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="31dp"
+            android:text="Button"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/book1" />
+
+        <Button
+            android:id="@+id/book4"
+            android:layout_width="122dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="30dp"
+            android:text="Button"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/book3"
+            app:layout_constraintTop_toBottomOf="@+id/book2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

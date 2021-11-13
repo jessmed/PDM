@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Casas Rurales Medina</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="casas">CASAS RURALES MEDINA</string>
+
+
+    // MENÚ LATERAL
+    <string name="menu_houses">Houses</string>
+    <string name="menu_activities">Activities</string>
+    <string name="menu_book">Your books</string>
+
+    // ALERT BOX
+    <string name="dialog_one_style_title">Log in needed</string>
+    <string name="dialog_one_style_message">In order to make a book you need to be logged.</string>
+    <string name="dialog_one_style_negative_btn">Close</string>
+    <string name="dialog_one_style_positive_btn">Log in</string>
+
+
+    // HOUSES TEXT
+    <string name="text_house_1"> "The house 'El Mirador' is the biggest one of the 3 houses…"</string>
+    <string name="text_house_2"> "The house 'El Mirador' is the biggest one of the 3 houses…"</string>
+    <string name="text_house_3"> "The house 'El Mirador' is the biggest one of the 3 houses…"</string>
+
+    // HOME
+    <string name="btn_house_1">House "El Mirador"</string>
+    <string name="btn_house_2">House "El Castillejo"</string>
+    <string name="btn_house_3">House "Las Eras"</string>
+    <string name="btn_activities">Activities</string>
+    <string name="btn_book">Book</string>
+
+    // LOG IN
+    <string name="logintext">Log in with google</string>
+
+    // TOAST
+    <string name="toastDays">You have to select both days</string>
+    <string name="toastEnd">You have to calculate the price</string>
+    // YOUR BOOKS
+    <string name="yourbookstitle">Your books</string>
+
+    // BOOKS
+    <string-array name="opciones">
+        <item>House 1: El mirador</item>
+        <item>House 2: El Castillejo</item>
+        <item>House 3: Las Eras</item>
+    </string-array>
+
+    <string name="entrada">Enter day:</string>
+    <string name="salida">Leave day:</string>
+    <string name="dias">Days:</string>
+    <string name="precio">Final price:</string>
+    <string name="preciodia">Price per day:</string>
+
+    <string name="btnmyreserva">Book 1</string>
+
+    <string name="bookdialogtitle">Reservation:</string>
+    <string name="textbook">Make a reservation</string>
+    <string name="fechaentrada">Arrival date</string>
+    <string name="fechasalida">Departure date</string>
+    <string name="btnprecio">Calculate price</string>
+    <string name="btnfinalizar">Finish reservation</string>
+
+    // MENU PROFILE
+    <string name="profile_1">Log in</string>
+    <string name="profile_2">Log out</string>
+    <string name="profile_3">Profile</string>
+
+    // ACTIVITIES
+    <string name="activities_title">Activities to do near</string>
+    <string name="activities_text">-Trecking
+    \n\n-Hiking
+    \n\n-Renting bikes and routes
+    \n\n-Swimingpool
+    \n\n-Billiards
+    \n\n-Table tennis
+    \n\n-Padel
+    \n\n-Darts</string>
+
+    // HOUSES
+    <string name="houses_tittle">Our houses</string>
+    <string name="houses_text">We have 3 houses avaible where you can...</string>
+
+
+    // SETTINGS
+    <string name="setting_1">Theme</string>
+    <string name="setting_2">Language</string>
+    <string name="btn_setting_1">Spanish</string>
+    <string name="btn_setting_2">English</string>
+
+    // IDEAS
+    <string name="sock_1">Sock 1</string>
+    <string name="Sock_2">Sock 2</string>
+    <string name="sock_3">sock 3</string>
+    <string name="sock_4">sock 4</string>
+    <string name="sock_5">sock 5</string>
+    <string name="sock_6">sock 6</string>
+    // Strings de CREATE
+    <string name="create_button">Next</string>
+    //CREATE_1
+    <string name="sock_style_text">Sock style:</string>
+    <string name="sock_style_title">STEP 1: Choose your style</string>
+    //CREATE_2
+    <string name="sock_size_text">Sock size:</string>
+    <string name="sock_size_title">STEP 2: Choose your size</string>
+    <string name="size_image">size image</string>
+    //CREATE_3
+    <string name="sock_main_color_text">Main color:</string>
+    <string name="sock_second_color_text">Secondary color:</string>
+    <string name="sock_color_title">STEP 3: Choose the colors</string>
+    <string name="Logocreate">logo create</string>
+    <string name="elige_color">Choose color</string>
+
+    // CREATE 4
+    <string name="sock_ensure">STEP 4: Confirm your design</string>
+    <string name="style_ensure">Style:</string>
+    <string name="size_ensure">Size:</string>
+    <string name="color_ensure">Main color:</string>
+    <string name="color2_ensure">Secondary color:</string>
+    <string name="save">SAVE</string>
+
+
+    // MENSAJES CONDICIONALES PARA PASAR A LA SIGUIENTE PANTALLA EN CREATE
+    <string name="toast1">Wait! You need to choose a style!</string>
+    <string name="toast2">Wait! You need to choose a size!</string>
+    <string name="toast3">Wait! You need to choose the main color!</string>
+    <string name="toast4">Wait! You need to choose the second color!</string>
+    <string name="toast5">Wait! You need to choose main and second colors!</string>
+
+    <string name="look">Look</string>
+
+
+
+
+</resources>

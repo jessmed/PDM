@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".ui.books.BookPageFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="325dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/textbook"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="277dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="32dp"
+            android:dropDownSelector="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.358"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <EditText
+            android:id="@+id/inDate"
+            android:layout_width="149dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="36dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:hint="@string/fechaentrada"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+        <EditText
+            android:id="@+id/outDate"
+            android:layout_width="156dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="36dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:hint="@string/fechasalida"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toEndOf="@+id/inDate"
+            app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+        <Button
+            android:id="@+id/finalizaReserva"
+            android:layout_width="156dp"
+            android:layout_height="60dp"
+            android:text="@string/btnfinalizar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.188"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/price" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="314dp"
+            android:layout_height="148dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnprice" />
+
+        <Button
+            android:id="@+id/btnprice"
+            android:layout_width="177dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="33dp"
+            android:text="@string/btnprecio"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inDate" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

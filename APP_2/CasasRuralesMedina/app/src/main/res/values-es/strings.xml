@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Casas Rurales Medina</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="casas">CASAS RURALES MEDINA</string>
+
+    // ALERT BOX
+    <string name="dialog_one_style_title">Inicio de sesión necesario</string>
+    <string name="dialog_one_style_message">Para realizar una reserva necesita iniciar sesión.</string>
+    <string name="dialog_one_style_negative_btn">Cerrar</string>
+    <string name="dialog_one_style_positive_btn">Iniciar sesión</string>
+
+    // HOUSES TEXT
+    <string name="text_house_1"> "La casa 'El Mirador' es la más grande de entre las 3…"</string>
+    <string name="text_house_2"> "La casa 'El Mirador' es la más grande de entre las 3…"</string>
+    <string name="text_house_3"> "La casa 'El Mirador' es la más grande de entre las 3…"</string>
+
+    // MENÚ LATERAL
+    <string name="menu_houses">Casas</string>
+    <string name="menu_activities">Actividades</string>
+    <string name="menu_book">Tus reservas</string>
+
+    // ACTIVITIES
+    <string name="activities_title">Actividades cerca</string>
+    <string name="activities_text">-Senderismo
+    \n\n-Escalada<br />
+    \n\n-Alquiler y rutas en bicicletas<br />
+    \n\n-Piscina<br />
+    \n\n-Billar<br />
+    \n\n-Mesa de pinpong<br />
+    \n\n-Padel<br />
+    \n\n-Dardos<br /></string>
+
+    // HOUSES
+    <string name="houses_tittle">Nuestras casas</string>
+    <string name="houses_text">Contamos con 3 casas situadas en tal tal..</string>
+
+    // YOUR BOOKS
+    <string name="yourbookstitle">Tus reservas</string>
+
+    // BOOKS
+    <string-array name="opciones">
+        <item>Casa 1: El mirador</item>
+        <item>Casa 2: El Castillejo</item>
+        <item>Casa 3: Las Eras</item>
+    </string-array>
+
+    <string name="entrada">Entrada:</string>
+    <string name="salida">Salida:</string>
+    <string name="dias">Días:</string>
+    <string name="precio">Precio final:</string>
+    <string name="preciodia">Precio por día:</string>
+    <string name="btnmyreserva">Reserva 1</string>
+
+    <string name="bookdialogtitle">Reserva:</string>
+    <string name="textbook">Haz una reserva</string>
+    <string name="fechaentrada">Fecha entrada</string>
+    <string name="fechasalida">Fecha salida</string>
+    <string name="btnprecio">Calcular precio</string>
+    <string name="btnfinalizar">Finalizar reserva</string>
+
+    // LOG IN
+    <string name="logintext">Inicio de sesión con Google</string>
+
+    // TOAST
+    <string name="toastDays">Tienes que seleccionar ambos días</string>
+    <string name="toastEnd">Primero tienes que calcular el precio</string>
+
+    // HOME
+    <string name="btn_house_1">Casa "El Mirador"</string>
+    <string name="btn_house_2">Casa "El Castillejo"</string>
+    <string name="btn_house_3">Casa "Las Eras"</string>
+    <string name="btn_activities">Actividades</string>
+    <string name="btn_book">Reservar</string>
+
+
+    // MENU PROFILE
+    <string name="profile_1">Inicio sesión</string>
+    <string name="profile_2">Cerrar sesión</string>
+    <string name="profile_3">Perfil</string>
+
+    // SETTINGS
+    <string name="setting_1">Tema</string>
+    <string name="setting_2">Idioma</string>
+    <string name="btn_setting_1">Español</string>
+    <string name="btn_setting_2">Inglés</string>
+
+    // IDEAS
+    <string name="sock_1">Sock 1</string>
+    <string name="Sock_2">Sock 2</string>
+    <string name="sock_3">sock 3</string>
+    <string name="sock_4">sock 4</string>
+    <string name="sock_5">sock 5</string>
+    <string name="sock_6">sock 6</string>
+
+    // Strings de CREATE
+    <string name="create_button">Siguiente</string>
+    //CREATE_1
+    <string name="sock_style_text">Estilo de calcetines:</string>
+    <string name="sock_style_title">PASO 1: Elige el estilo</string>
+    //CREATE_2
+    <string name="sock_size_text">Talla de calcetines:</string>
+    <string name="sock_size_title">PASO 2: Escoge tu talla</string>
+    <string name="size_image">size image</string>
+    //CREATE_3
+    <string name="sock_main_color_text">Color principal:</string>
+    <string name="sock_second_color_text">Color secundario:</string>
+    <string name="sock_color_title">PASO 3: Elige los colores</string>
+    <string name="Logocreate">logo create</string>
+    <string name="sock_ensure">PASO 4:Confirma tu deseño</string>
+    <string name="save">GUARDAR</string>
+
+    //PAINT
+    <string name="elige_color">Elige color</string>
+    <string name="style_ensure">Estilo:</string>
+    <string name="size_ensure">Talla:</string>
+    <string name="color_ensure">Color principal:</string>
+    <string name="color2_ensure">Color secundario:</string>
+
+    // MENSAJES CONDICIONALES PARA PASAR A LA SIGUIENTE PANTALLA EN CREATE
+    <string name="toast1">¡Espera! ¡Necesitas elegir el estilo!</string>
+    <string name="toast2">W¡Espera! ¡Necesitas elegir la talla!</string>
+    <string name="toast3">¡Espera! ¡Necesitas elegir el color principal!</string>
+    <string name="toast4">¡Espera! ¡Necesitas elegir el color secundario!</string>
+    <string name="toast5">¡Espera! ¡Necesitas elegir el color primario y secundario!</string>
+    <string name="look">Ver elecciones</string>
+</resources>

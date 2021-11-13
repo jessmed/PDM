@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.home.HomeFragment">
+
+        <ImageButton
+            android:id="@+id/btn_house_1"
+            android:layout_width="350dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="36dp"
+            android:background="@mipmap/casa_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/btn_house_2"
+            android:layout_width="350dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_house_1"
+            android:background="@mipmap/casa_2"/>
+
+        <ImageButton
+            android:id="@+id/btn_house_3"
+            android:layout_width="350dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/btn_house_3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_house_2"
+            android:background="@mipmap/casa_3"/>
+
+        <Button
+            android:id="@+id/btn_activities"
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/btn_activities"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.119"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_house_3" />
+
+        <Button
+            android:id="@+id/btn_book"
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/btn_book"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toEndOf="@+id/btn_activities"
+            app:layout_constraintTop_toBottomOf="@+id/btn_house_3" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#9F76A540"
+            android:text="@string/btn_house_1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_house_1"
+            app:layout_constraintEnd_toEndOf="@+id/btn_house_1"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="@+id/btn_house_1"
+            app:layout_constraintTop_toTopOf="@+id/btn_house_1"
+            app:layout_constraintVertical_bias="0.492" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A176A540"
+            android:text="@string/btn_house_2"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_house_2"
+            app:layout_constraintEnd_toEndOf="@+id/btn_house_2"
+            app:layout_constraintStart_toStartOf="@+id/btn_house_2"
+            app:layout_constraintTop_toTopOf="@+id/btn_house_2"
+            app:layout_constraintVertical_bias="0.553" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A376A540"
+            android:text="@string/btn_house_3"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_house_3"
+            app:layout_constraintEnd_toEndOf="@+id/btn_house_3"
+            app:layout_constraintStart_toStartOf="@+id/btn_house_3"
+            app:layout_constraintTop_toTopOf="@+id/btn_house_3"
+            app:layout_constraintVertical_bias="0.4" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

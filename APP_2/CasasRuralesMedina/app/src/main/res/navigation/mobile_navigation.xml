@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.medyesus.myapplication.ui.home.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_books"
+            app:destination="@id/nav_books" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_activities"
+            app:destination="@id/nav_activities" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_house_1"
+            app:destination="@id/nav_house_1" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_house_2"
+            app:destination="@id/nav_house_2" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_house_3"
+            app:destination="@id/nav_house_3" />
+        <action
+            android:id="@+id/action_nav_home_to_bookPageFragment"
+            app:destination="@id/bookPageFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_books"
+        android:name="com.medyesus.myapplication.ui.books.YourBooksFragment"
+        android:label=""
+        tools:layout="@layout/fragment_books" />
+
+
+    <fragment
+        android:id="@+id/nav_houses"
+        android:name="com.medyesus.myapplication.ui.houses.houses"
+        android:label=""
+        tools:layout="@layout/houses_fragment" >
+        <action
+            android:id="@+id/action_nav_houses_to_nav_house_1"
+            app:destination="@id/nav_house_1" />
+        <action
+            android:id="@+id/action_nav_houses_to_nav_house_2"
+            app:destination="@id/nav_house_2" />
+        <action
+            android:id="@+id/action_nav_houses_to_nav_house_3"
+            app:destination="@id/nav_house_3" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_activities"
+        android:name="com.medyesus.myapplication.ui.activities.ActivitiesFragment"
+        android:label=""
+        tools:layout="@layout/activities_fragment" />
+
+    <action android:id="@+id/action_global_nav_home" app:destination="@id/nav_home"/>
+
+    <fragment
+        android:id="@+id/nav_house_1"
+        android:name="com.medyesus.myapplication.ui.houses.house_1"
+        android:label="" >
+        <action
+            android:id="@+id/action_nav_house_1_to_bookPageFragment"
+            app:destination="@id/bookPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_house_2"
+        android:name="com.medyesus.myapplication.ui.houses.house_2"
+        android:label="" >
+        <action
+            android:id="@+id/action_nav_house_2_to_bookPageFragment"
+            app:destination="@id/bookPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_house_3"
+        android:name="com.medyesus.myapplication.ui.houses.house_3"
+        android:label="" >
+        <action
+            android:id="@+id/action_nav_house_3_to_bookPageFragment"
+            app:destination="@id/bookPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookPageFragment"
+        android:name="com.medyesus.myapplication.ui.books.BookPageFragment"
+        android:label=""
+        tools:layout="@layout/fragment_book_page" >
+        <action
+            android:id="@+id/action_bookPageFragment_to_nav_home"
+            app:destination="@id/nav_home"
+            app:popUpTo="@id/nav_home"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

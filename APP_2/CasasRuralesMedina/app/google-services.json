@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "562162378589",
+    "project_id": "casas-rurales-medina-d596a",
+    "storage_bucket": "casas-rurales-medina-d596a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562162378589:android:ee244cd0938fb2d0f02ab4",
+        "android_client_info": {
+          "package_name": "com.medyesus.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562162378589-bra8fshuoi8oujd5ph03s0nf1n6pungh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medyesus.myapplication",
+            "certificate_hash": "c8397633ba913189cb71748aaa09552dc49666e3"
+          }
+        },
+        {
+          "client_id": "562162378589-p7m3imbrmkh26jtu26lohpj3d9lct3k9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTJPwLwnOzDbAqOL2dQx2bzDWTNa3QQNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562162378589-p7m3imbrmkh26jtu26lohpj3d9lct3k9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

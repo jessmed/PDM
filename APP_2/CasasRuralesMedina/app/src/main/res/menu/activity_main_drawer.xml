@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/gr1"
+    android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_houses"
+            android:icon="@drawable/ic_menu_houses"
+            android:title="@string/menu_houses" />
+        <item
+            android:id="@+id/nav_activities"
+            android:icon="@drawable/ic_menu_activities"
+            android:title="@string/menu_activities" />
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@drawable/ic_menu_books"
+            android:title="@string/menu_book" />
+
+
+    </group>
+    <group
+        android:id="@+id/gr2"
+        android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/app_bar_theme"
+            android:title="@string/setting_1"
+            app:actionLayout="@layout/switch_item"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/app_bar_language"
+            android:title="@string/setting_2"
+            app:actionLayout="@layout/switch_item2"
+            app:showAsAction="always" />
+
+    </group>
+</menu>
