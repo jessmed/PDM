@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Joy Socks</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    // MENÚ LATERAL
+    <string name="menu_home">Home</string>
+    <string name="menu_create">Let\'s Create</string>
+    <string name="menu_ideas">Ideas</string>
+    <string name="menu_socks">Your Socks</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_aboutus">About Us</string>
+
+
+    // HOME
+    <string name="btn_home_1">Let\'s Create</string>
+    <string name="btn_home_2">Ideas</string>
+    <string name="btn_home_3">Your Socks</string>
+    <string name="btn_home_4">Help</string>
+    <string name="btn_home_5">Settings</string>
+    <string name="btn_home_6">About Us</string>
+    <string name="aboutus_title">Joy Socks</string>
+    <string name="help_title">Joy Socks</string>
+
+    // ABOUT US
+    <string name="aboutus_text">Hello! I am Jesus, creator of Joy Socks.
+        \n\nA year ago I became interested in socks with fun prints and colors and started my little collection buying socks around the world.
+        \n\nThat\'s when I asked myself, why not design the socks myself?
+        \nThus was born the idea of the application you are using.
+        \n\nI hope you can enjoy it, creating and experimenting with different designs.
+        \nMake your imagination fly!
+        \n\n-Joy Socks developers-
+        \n\n\nIf you have a moment, rate our application!\n\n</string>
+
+    // HELP
+    <string name="help_text">Hi, my name is Aleks.
+        \n\nI love fish.
+        \n\nThe kind that is alive and swims around in an aquarium or river, or a lake, and definitely the ocean.
+        \nFun fact is that I have several aquariums and also a river.
+        \n\nI like eating fish, too. Raw fish. Grilled fish. Smoked fish. Poached fish - not so much.
+        \nAnd sometimes I even go fishing.
+        \nAnd even less sometimes, I actually catch something.
+        \n\nOnce, when I was camping in Canada, and very hungry, I even caught a large salmon with my hands.
+        \n\nI\'ll be happy to teach you how to make your own aquarium.
+        \nYou should ask someone else about fishing, though.\n\n</string>
+
+    // SETTINGS
+    <string name="setting_1">Dark Mode</string>
+    <string name="setting_2">Language</string>
+    <string name="btn_setting_1">Spanish</string>
+    <string name="btn_setting_2">English</string>
+
+    // IDEAS
+    <string name="sock_1">Sock 1</string>
+    <string name="Sock_2">Sock 2</string>
+    <string name="sock_3">sock 3</string>
+    <string name="sock_4">sock 4</string>
+    <string name="sock_5">sock 5</string>
+    <string name="sock_6">sock 6</string>
+    // Strings de CREATE
+    <string name="create_button">Next</string>
+    //CREATE_1
+    <string name="sock_style_text">Sock style:</string>
+    <string name="sock_style_title">STEP 1: Choose your style</string>
+    //CREATE_2
+    <string name="sock_size_text">Sock size:</string>
+    <string name="sock_size_title">STEP 2: Choose your size</string>
+    <string name="size_image">size image</string>
+    //CREATE_3
+    <string name="sock_main_color_text">Main color:</string>
+    <string name="sock_second_color_text">Secondary color:</string>
+    <string name="sock_color_title">STEP 3: Choose the colors</string>
+    <string name="Logocreate">logo create</string>
+    <string name="inicio_splash">inicio splash icon</string>
+    <string name="elige_color">Choose color</string>
+
+    // CREATE 4
+    <string name="sock_ensure">STEP 4: Confirm your design</string>
+    <string name="style_ensure">Style:</string>
+    <string name="size_ensure">Size:</string>
+    <string name="color_ensure">Main color:</string>
+    <string name="color2_ensure">Secondary color:</string>
+    <string name="save">SAVE</string>
+
+
+    // MENSAJES CONDICIONALES PARA PASAR A LA SIGUIENTE PANTALLA EN CREATE
+    <string name="toast1">Wait! You need to choose a style!</string>
+    <string name="toast2">Wait! You need to choose a size!</string>
+    <string name="toast3">Wait! You need to choose the main color!</string>
+    <string name="toast4">Wait! You need to choose the second color!</string>
+    <string name="toast5">Wait! You need to choose main and second colors!</string>
+
+    <string name="look">Look</string>
+
+
+
+</resources>

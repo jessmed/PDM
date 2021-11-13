@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Joy Socks</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    // MENÚ LATERAL
+    <string name="menu_home">Inicio</string>
+    <string name="menu_create">Empieza a crear</string>
+    <string name="menu_ideas">Ideas</string>
+    <string name="menu_socks">Tus diseños</string>
+    <string name="menu_help">Ayuda</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="menu_aboutus">Sobre nosotros</string>
+
+
+    // HOME
+    <string name="btn_home_1">Empieza a crear</string>
+    <string name="btn_home_2">Ideas</string>
+    <string name="btn_home_3">Tus diseños</string>
+    <string name="btn_home_4">Ayuda</string>
+    <string name="btn_home_5">Ajustes</string>
+    <string name="btn_home_6">Sobre nosotros</string>
+    <string name="aboutus_title">Joy Socks</string>
+    <string name="help_title">Joy Socks</string>
+    <string name="inicio_splash">inicio splash icon</string>
+
+
+    // ABOUT US
+    <string name="aboutus_text">¡Hola! Soy Jesús, creador de Joy Socks.
+        \n\n Hace un año me empecé a interesar por los calcetines con estampados y colores divertidos. Y comencé mi pequeña colección comprando calcetines alrededor del mundo.
+        \n\nFue entonces cuando me pregunté, ¿por qué no diseñar yo mismo los calcetines?
+        \nAsí nació la idea de la aplicación que estas usando.
+        \n\nEspero que puedas disfrutar de ella, creando y experimentando con diferentes diseños.
+        \n¡Haz volar tu imaginación!
+        \n\n-Desarrolladores de Joysocks-
+        \n\n\nSi tienes un momento ¡valora nuestra aplicación!\n\n</string>
+
+
+    // HELP
+    <string name="help_text">Hi, my name is Aleks.
+        \n\nI love fish.
+        \n\nThe kind that is alive and swims around in an aquarium or river, or a lake, and definitely the ocean.
+        \nFun fact is that I have several aquariums and also a river.
+        \n\nI like eating fish, too. Raw fish. Grilled fish. Smoked fish. Poached fish - not so much.
+        \nAnd sometimes I even go fishing.
+        \nAnd even less sometimes, I actually catch something.
+        \n\nOnce, when I was camping in Canada, and very hungry, I even caught a large salmon with my hands.
+        \n\nI\'ll be happy to teach you how to make your own aquarium.
+        \nYou should ask someone else about fishing, though.\n\n</string>
+
+    // SETTINGS
+    <string name="setting_1">Modo Oscuro</string>
+    <string name="setting_2">Idioma</string>
+    <string name="btn_setting_1">Español</string>
+    <string name="btn_setting_2">Inglés</string>
+
+    // IDEAS
+    <string name="sock_1">Sock 1</string>
+    <string name="Sock_2">Sock 2</string>
+    <string name="sock_3">sock 3</string>
+    <string name="sock_4">sock 4</string>
+    <string name="sock_5">sock 5</string>
+    <string name="sock_6">sock 6</string>
+    // Strings de CREATE
+    <string name="create_button">Siguiente</string>
+    //CREATE_1
+    <string name="sock_style_text">Estilo de calcetines:</string>
+    <string name="sock_style_title">PASO 1: Elige el estilo</string>
+    //CREATE_2
+    <string name="sock_size_text">Talla de calcetines:</string>
+    <string name="sock_size_title">PASO 2: Escoge tu talla</string>
+    <string name="size_image">size image</string>
+    //CREATE_3
+    <string name="sock_main_color_text">Color principal:</string>
+    <string name="sock_second_color_text">Color secundario:</string>
+    <string name="sock_color_title">PASO 3: Elige los colores</string>
+    <string name="Logocreate">logo create</string>
+    <string name="sock_ensure">PASO 4:Confirma tu deseño</string>
+    <string name="save">GUARDAR</string>
+
+    //PAINT
+    <string name="elige_color">Elige color</string>
+    <string name="style_ensure">Estilo:</string>
+    <string name="size_ensure">Talla:</string>
+    <string name="color_ensure">Color principal:</string>
+    <string name="color2_ensure">Color secundario:</string>
+
+    // MENSAJES CONDICIONALES PARA PASAR A LA SIGUIENTE PANTALLA EN CREATE
+    <string name="toast1">¡Espera! ¡Necesitas elegir el estilo!</string>
+    <string name="toast2">W¡Espera! ¡Necesitas elegir la talla!</string>
+    <string name="toast3">¡Espera! ¡Necesitas elegir el color principal!</string>
+    <string name="toast4">¡Espera! ¡Necesitas elegir el color secundario!</string>
+    <string name="toast5">¡Espera! ¡Necesitas elegir el color primario y secundario!</string>
+    <string name="look">Ver elecciones</string>
+</resources>

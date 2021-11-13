@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.medyesus.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_create"
+            app:destination="@id/nav_create" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_ideas"
+            app:destination="@id/nav_ideas" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_socks"
+            app:destination="@id/nav_socks"
+            app:launchSingleTop="false" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_settings"
+            app:destination="@id/nav_settings" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_aboutus"
+            app:destination="@id/nav_aboutus" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_create"
+        android:name="com.medyesus.myapplication.ui.create.CreateFragment"
+        android:label="@string/menu_create"
+        tools:layout="@layout/fragment_create" >
+        <action
+            android:id="@+id/action_nav_create_to_createFragment1"
+            app:destination="@id/createFragment1" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ideas"
+        android:name="com.medyesus.myapplication.ui.ideas.IdeasFragment"
+        android:label="@string/menu_ideas"
+        tools:layout="@layout/fragment_ideas" />
+    <fragment
+        android:id="@+id/nav_socks"
+        android:name="com.medyesus.myapplication.ui.socks.SocksFragment"
+        android:label="@string/menu_socks"
+        tools:layout="@layout/fragment_socks" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.medyesus.myapplication.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_aboutus"
+        android:name="com.medyesus.myapplication.ui.aboutus.AboutUsFragment"
+        android:label="@string/menu_aboutus"
+        tools:layout="@layout/fragment_aboutus" />
+    <fragment
+        android:id="@+id/createFragment1"
+        android:name="com.medyesus.myapplication.ui.create.CreateFragment1"
+        android:label="@string/menu_create">
+        <action
+            android:id="@+id/action_createFragment1_to_createFragment2"
+            app:destination="@id/createFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/createFragment3"
+        android:name="com.medyesus.myapplication.ui.create.CreateFragment3"
+        android:label="@string/menu_create" >
+        <action
+            android:id="@+id/action_createFragment3_to_nav_home"
+            app:destination="@id/nav_home"
+            app:popUpTo="@id/nav_home"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/createFragment2"
+        android:name="com.medyesus.myapplication.ui.create.CreateFragment2"
+        android:label="@string/menu_create">
+        <action
+            android:id="@+id/action_createFragment2_to_createFragment3"
+            app:destination="@id/createFragment3" />
+    </fragment>
+
+</navigation>
